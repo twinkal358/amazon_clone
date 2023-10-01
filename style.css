@@ -171,32 +171,33 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #f3f3f3;
-  padding: 10px; /* Add padding for spacing on all sides */
+  padding: 10px;
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  height: 250px;
 }
 
-.hero-section img {
+/* .hero-section img {
   position:-ms-page;
-  max-width:70%; /* Make sure the image scales with the container */
-  height: 40%; /* Maintain the image's aspect ratio */
+  max-width:70%; Make sure the image scales with the container
+  height: 20%; Maintain the image's aspect ratio
 }
 @media screen and (min-width: 480px) {
   .hero-section img {
-    position:-ms-page;
-    max-width:100%; /* Make sure the image scales with the container */
-    height: 40%; /* Maintain the image's aspect ratio */
+    position:center;
+    max-width:100%; Make sure the image scales with the container
+    height: 20%; Maintain the image's aspect ratio
+    overflow:visible;
   }
-  
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
-}
+   */
 /* Shop Section */
 .shop-section {
-    margin-top: 120px;
+    /* margin-top: 120px; */
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #f3f3f3;
-  padding: 50px 0;
+  padding: 0 0 0 0;
 }
 
 .shop-images {
